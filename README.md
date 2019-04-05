@@ -17,6 +17,9 @@ More important directories
 - 	  meshlib:Some terrain scenes
 - 	  model:Character model
 - 	  start:Start scene
+  
+[Video connection1](https://www.youtube.com/watch?v=AbHwpBZDk_0)  
+[Video connection2](https://www.youtube.com/watch?v=TdQYO6sDB84)  
 
 ![alt](/img1.png)
 ![alt](/img2.png)
