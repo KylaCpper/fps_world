@@ -1,7 +1,8 @@
 # friends-world
 A sandbox multiplayer online game project for learning godot  
 use version godot 3.0.6  
-  
+[中文点这里](/readme_zh.md)  
+[english click](/README.md)   
 This is a personal project,  
 He made it using the godot engine,  
 a sandbox, multiplayer 3d game,  
@@ -22,5 +23,4 @@ More important directories
 ![alt](/img3.png)
 ![alt](/img4.png)
 ![alt](/img5.png)
-[中文](/readme_zh.md)
-[english](/README.md)
+
