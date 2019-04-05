@@ -8,14 +8,14 @@ a sandbox, multiplayer 3d game,
 There are still some bugs  
 
 More important directories  
-* scenes:
-*   global:autoload file
-*     net.gd multiplayer
-*     function.gd General method can be reused
-- 	main:main scene
-- 	meshlib:Some terrain scenes
-- 	model:Character model
-- 	start:Start scene
+*   scenes:
+*     global:autoload file
+*       net.gd multiplayer
+*       function.gd General method can be reused
+- 	  main:main scene
+- 	  meshlib:Some terrain scenes
+- 	  model:Character model
+- 	  start:Start scene
 
 ![alt](/img1.png)
 ![alt](/img2.png)
