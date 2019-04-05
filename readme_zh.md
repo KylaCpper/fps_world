@@ -1,7 +1,8 @@
 # friends-world
 一个沙盒联机3d 游戏 是练习godot的作品
 使用版本 godot 3.0.6  
- 
+[中文点这里](/readme_zh.md)  
+[english click](/README.md)   
 这是一个个人项目， 
 他使用godot engine 制作的， 
 一个沙盒，多人联机的3d游戏， 
@@ -23,5 +24,3 @@
 ![alt](/img3.png)
 ![alt](/img4.png)
 ![alt](/img5.png)
-[中文](/readme_zh.md)
-[english](/README.md)
