@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/meshlib/block/block_scene/crack/crack.tres" type="Material" id=1]
+[ext_resource path="res://scenes/meshlib/block/block_scene/crack/crack.gd" type="Script" id=2]
+
+[sub_resource type="CubeMesh" id=5]
+
+material = ExtResource( 1 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector3( 1, 1, 1 )
+subdivide_width = 0
+subdivide_height = 0
+subdivide_depth = 0
+
+[node name="crack" type="MeshInstance"]
+
+transform = Transform( 1.01, 0, 0, 0, 1.01, 0, 0, 0, 1.01, 0, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 0
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = SubResource( 5 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 1 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Geometry", "LOD", "Transform", "Visibility", "material" ]
+
+[node name="time" type="Timer" parent="." index="0"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = true
+autostart = false
+
+

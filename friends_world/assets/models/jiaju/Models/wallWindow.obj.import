@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallWindow.obj-5f77e84e486c2faf3c02f4bb686e4ff4.mesh"
+
+[deps]
+
+files=[ "res://.import/wallWindow.obj-5f77e84e486c2faf3c02f4bb686e4ff4.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/wallWindow.obj"
+dest_files=[ "res://.import/wallWindow.obj-5f77e84e486c2faf3c02f4bb686e4ff4.mesh", "res://.import/wallWindow.obj-5f77e84e486c2faf3c02f4bb686e4ff4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

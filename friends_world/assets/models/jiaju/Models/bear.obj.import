@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bear.obj-feb060f215f546af2765e28613d4c436.mesh"
+
+[deps]
+
+files=[ "res://.import/bear.obj-feb060f215f546af2765e28613d4c436.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bear.obj"
+dest_files=[ "res://.import/bear.obj-feb060f215f546af2765e28613d4c436.mesh", "res://.import/bear.obj-feb060f215f546af2765e28613d4c436.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Iron_Door_01.obj-a2a43bf575967c5bd8ad1c177422647c.mesh"
+
+[deps]
+
+files=[ "res://.import/Iron_Door_01.obj-a2a43bf575967c5bd8ad1c177422647c.mesh" ]
+
+source_file="res://assets/models/town/Models/Iron_Door_01.obj"
+dest_files=[ "res://.import/Iron_Door_01.obj-a2a43bf575967c5bd8ad1c177422647c.mesh", "res://.import/Iron_Door_01.obj-a2a43bf575967c5bd8ad1c177422647c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

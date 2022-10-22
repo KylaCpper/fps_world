@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/books.obj-16894c7cf8a9b66b37c81bad900676f3.mesh"
+
+[deps]
+
+files=[ "res://.import/books.obj-16894c7cf8a9b66b37c81bad900676f3.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/books.obj"
+dest_files=[ "res://.import/books.obj-16894c7cf8a9b66b37c81bad900676f3.mesh", "res://.import/books.obj-16894c7cf8a9b66b37c81bad900676f3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

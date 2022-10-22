@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pillow.obj-60fb72b868a57268bfdfd868df5fd224.mesh"
+
+[deps]
+
+files=[ "res://.import/pillow.obj-60fb72b868a57268bfdfd868df5fd224.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/pillow.obj"
+dest_files=[ "res://.import/pillow.obj-60fb72b868a57268bfdfd868df5fd224.mesh", "res://.import/pillow.obj-60fb72b868a57268bfdfd868df5fd224.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

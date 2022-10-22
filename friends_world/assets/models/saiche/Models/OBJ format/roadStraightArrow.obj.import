@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStraightArrow.obj-f5cd2d95c3eb3ccb5bcca825f611d7c6.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStraightArrow.obj-f5cd2d95c3eb3ccb5bcca825f611d7c6.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadStraightArrow.obj"
+dest_files=[ "res://.import/roadStraightArrow.obj-f5cd2d95c3eb3ccb5bcca825f611d7c6.mesh", "res://.import/roadStraightArrow.obj-f5cd2d95c3eb3ccb5bcca825f611d7c6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

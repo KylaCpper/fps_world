@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flagCheckers.obj-5728b80de2bb5bb2425aea594cf645c5.mesh"
+
+[deps]
+
+files=[ "res://.import/flagCheckers.obj-5728b80de2bb5bb2425aea594cf645c5.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/flagCheckers.obj"
+dest_files=[ "res://.import/flagCheckers.obj-5728b80de2bb5bb2425aea594cf645c5.mesh", "res://.import/flagCheckers.obj-5728b80de2bb5bb2425aea594cf645c5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

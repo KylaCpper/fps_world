@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Slanted_Wall_01.obj-5f067986f0ccf0453843b87c813c3b3d.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Slanted_Wall_01.obj-5f067986f0ccf0453843b87c813c3b3d.mesh" ]
+
+source_file="res://assets/models/town/Models/Grey_Slanted_Wall_01.obj"
+dest_files=[ "res://.import/Grey_Slanted_Wall_01.obj-5f067986f0ccf0453843b87c813c3b3d.mesh", "res://.import/Grey_Slanted_Wall_01.obj-5f067986f0ccf0453843b87c813c3b3d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/barrierWhite.obj-61e5c3f59e7460952bd8c0466d619072.mesh"
+
+[deps]
+
+files=[ "res://.import/barrierWhite.obj-61e5c3f59e7460952bd8c0466d619072.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/barrierWhite.obj"
+dest_files=[ "res://.import/barrierWhite.obj-61e5c3f59e7460952bd8c0466d619072.mesh", "res://.import/barrierWhite.obj-61e5c3f59e7460952bd8c0466d619072.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

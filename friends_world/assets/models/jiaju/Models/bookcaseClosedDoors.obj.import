@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bookcaseClosedDoors.obj-911a29d607bbf42ed657d3535e2c131d.mesh"
+
+[deps]
+
+files=[ "res://.import/bookcaseClosedDoors.obj-911a29d607bbf42ed657d3535e2c131d.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bookcaseClosedDoors.obj"
+dest_files=[ "res://.import/bookcaseClosedDoors.obj-911a29d607bbf42ed657d3535e2c131d.mesh", "res://.import/bookcaseClosedDoors.obj-911a29d607bbf42ed657d3535e2c131d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

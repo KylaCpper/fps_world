@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/monu9.obj-6d171d6f8ccd6a624dc4ed995bf9a4c5.mesh"
+
+[deps]
+
+files=[ "res://.import/monu9.obj-6d171d6f8ccd6a624dc4ed995bf9a4c5.mesh" ]
+
+source_file="res://assets/models/plane/monu9.obj"
+dest_files=[ "res://.import/monu9.obj-6d171d6f8ccd6a624dc4ed995bf9a4c5.mesh", "res://.import/monu9.obj-6d171d6f8ccd6a624dc4ed995bf9a4c5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

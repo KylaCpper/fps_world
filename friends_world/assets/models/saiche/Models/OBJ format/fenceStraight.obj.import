@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fenceStraight.obj-20f4e36ac7a3346c1fc14f60afef8457.mesh"
+
+[deps]
+
+files=[ "res://.import/fenceStraight.obj-20f4e36ac7a3346c1fc14f60afef8457.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/fenceStraight.obj"
+dest_files=[ "res://.import/fenceStraight.obj-20f4e36ac7a3346c1fc14f60afef8457.mesh", "res://.import/fenceStraight.obj-20f4e36ac7a3346c1fc14f60afef8457.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

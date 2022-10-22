@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Short_Wall_01.obj-37ab7c59e4c7583511de1e97afb77dfa.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Short_Wall_01.obj-37ab7c59e4c7583511de1e97afb77dfa.mesh" ]
+
+source_file="res://assets/models/town/Models/Grey_Short_Wall_01.obj"
+dest_files=[ "res://.import/Grey_Short_Wall_01.obj-37ab7c59e4c7583511de1e97afb77dfa.mesh", "res://.import/Grey_Short_Wall_01.obj-37ab7c59e4c7583511de1e97afb77dfa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

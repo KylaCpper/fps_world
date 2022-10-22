@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/desk.obj-b9c170a55c778eff26bd9e337aa8c49e.mesh"
+
+[deps]
+
+files=[ "res://.import/desk.obj-b9c170a55c778eff26bd9e337aa8c49e.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/desk.obj"
+dest_files=[ "res://.import/desk.obj-b9c170a55c778eff26bd9e337aa8c49e.mesh", "res://.import/desk.obj-b9c170a55c778eff26bd9e337aa8c49e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

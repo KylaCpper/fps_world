@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stoolBarSquare.obj-7250ef02e4d4566fd6907f05b1c53bcc.mesh"
+
+[deps]
+
+files=[ "res://.import/stoolBarSquare.obj-7250ef02e4d4566fd6907f05b1c53bcc.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/stoolBarSquare.obj"
+dest_files=[ "res://.import/stoolBarSquare.obj-7250ef02e4d4566fd6907f05b1c53bcc.mesh", "res://.import/stoolBarSquare.obj-7250ef02e4d4566fd6907f05b1c53bcc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

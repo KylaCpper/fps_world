@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Roof_Point_Green_01.obj-24c5e35b468d1b592c58ff790d5a221e.mesh"
+
+[deps]
+
+files=[ "res://.import/Roof_Point_Green_01.obj-24c5e35b468d1b592c58ff790d5a221e.mesh" ]
+
+source_file="res://assets/models/town/Models/Roof_Point_Green_01.obj"
+dest_files=[ "res://.import/Roof_Point_Green_01.obj-24c5e35b468d1b592c58ff790d5a221e.mesh", "res://.import/Roof_Point_Green_01.obj-24c5e35b468d1b592c58ff790d5a221e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

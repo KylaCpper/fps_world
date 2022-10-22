@@ -1,0 +1,73 @@
+[gd_scene format=2]
+
+[node name="AnimationTreePlayer" type="AnimationTreePlayer"]
+
+playback_process_mode = 1
+master_player = NodePath("../AnimationPlayer")
+base_path = NodePath("..")
+active = false
+data = {
+"active": false,
+"connections": [ "anim 3", "tree", 0, "mix", "tree", 1, "mix 2", "tree", 2, "anim", "mix 2", 0, "anim 2", "mix 2", 1, "walk", "mix", 0, "hand_walk", "mix", 1, "tree", "out", 0 ],
+"master": NodePath("../AnimationPlayer"),
+"nodes": [ {
+"filter": [  ],
+"from": "item_walk",
+"id": "anim 2",
+"position": Vector2( 52, 416 ),
+"type": "animation"
+}, {
+"id": "tree",
+"position": Vector2( 360, 248 ),
+"transitions": [ {
+"auto_advance": false
+}, {
+"auto_advance": false
+}, {
+"auto_advance": false
+} ],
+"type": "transition",
+"xfade": 0.0
+}, {
+"filter": [  ],
+"from": "hand_walk",
+"id": "hand_walk",
+"position": Vector2( 53, 206 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "stop",
+"id": "anim 3",
+"position": Vector2( 196, 41 ),
+"type": "animation"
+}, {
+"id": "mix 2",
+"mix": 1.0,
+"position": Vector2( 208, 340 ),
+"type": "mix"
+}, {
+"id": "mix",
+"mix": 1.0,
+"position": Vector2( 209, 154 ),
+"type": "mix"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "anim",
+"position": Vector2( 51, 310 ),
+"type": "animation"
+}, {
+"id": "out",
+"position": Vector2( 56, 14 ),
+"type": "output"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "walk",
+"position": Vector2( 56, 101 ),
+"type": "animation"
+} ]
+}
+_sections_unfolded = [ "Playback" ]
+
+

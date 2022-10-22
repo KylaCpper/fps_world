@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/loungeSofaLong.obj-1cc46f5f24338492a60c9aee40a6c6f9.mesh"
+
+[deps]
+
+files=[ "res://.import/loungeSofaLong.obj-1cc46f5f24338492a60c9aee40a6c6f9.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/loungeSofaLong.obj"
+dest_files=[ "res://.import/loungeSofaLong.obj-1cc46f5f24338492a60c9aee40a6c6f9.mesh", "res://.import/loungeSofaLong.obj-1cc46f5f24338492a60c9aee40a6c6f9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

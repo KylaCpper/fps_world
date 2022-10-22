@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadHalfCircleBorder.obj-41796a9ed900bef175cc4a898c06be38.mesh"
+
+[deps]
+
+files=[ "res://.import/roadHalfCircleBorder.obj-41796a9ed900bef175cc4a898c06be38.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadHalfCircleBorder.obj"
+dest_files=[ "res://.import/roadHalfCircleBorder.obj-41796a9ed900bef175cc4a898c06be38.mesh", "res://.import/roadHalfCircleBorder.obj-41796a9ed900bef175cc4a898c06be38.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

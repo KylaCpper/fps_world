@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pitsGarage.obj-fdd72e0c47284da2f06e5b03d187b3be.mesh"
+
+[deps]
+
+files=[ "res://.import/pitsGarage.obj-fdd72e0c47284da2f06e5b03d187b3be.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/pitsGarage.obj"
+dest_files=[ "res://.import/pitsGarage.obj-fdd72e0c47284da2f06e5b03d187b3be.mesh", "res://.import/pitsGarage.obj-fdd72e0c47284da2f06e5b03d187b3be.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

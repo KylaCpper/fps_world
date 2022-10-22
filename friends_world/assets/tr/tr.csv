@@ -1,0 +1,35 @@
+key,en,zh
+multiplayer,multiplayer,多人游戏
+set,set,设置
+language,language,语言
+create,create,创建
+connect,connect,连接
+cannel,cannel,取消
+sure,sure,确定
+sound,sound,声音
+port:,port:,端口:
+name:,name:,名字:
+num:,num:,人数:
+close,close,关闭
+ip:,ip:,ip:
+exit,exit,退出
+start,start,开始
+model,model,模型
+sound:,sound:,声音:
+music:,music:,音乐:
+next,next,下一个
+previous,previous,上一个
+killed,killed,击杀了
+a_killed,killed,已经杀了
+a_dead,dead,已经死了
+a_people,people!,个人了！
+frequency,frequency!,次数了！
+open to net,open to net,开放网络
+buy,buy,买
+enter server,enter server,进入服务器
+bullet1,bullet num 1,子弹数量1
+bullet5,bullet num 5,子弹数量5
+bullet10,bullet num 10,子弹数量10
+
+
+

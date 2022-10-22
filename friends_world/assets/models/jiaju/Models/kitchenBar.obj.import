@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/kitchenBar.obj-9491757efde5ff14978dac5be3dc99cc.mesh"
+
+[deps]
+
+files=[ "res://.import/kitchenBar.obj-9491757efde5ff14978dac5be3dc99cc.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/kitchenBar.obj"
+dest_files=[ "res://.import/kitchenBar.obj-9491757efde5ff14978dac5be3dc99cc.mesh", "res://.import/kitchenBar.obj-9491757efde5ff14978dac5be3dc99cc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

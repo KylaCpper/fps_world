@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cabinetBedDrawer.obj-dbd964a69473526c645e252cbeed5680.mesh"
+
+[deps]
+
+files=[ "res://.import/cabinetBedDrawer.obj-dbd964a69473526c645e252cbeed5680.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/cabinetBedDrawer.obj"
+dest_files=[ "res://.import/cabinetBedDrawer.obj-dbd964a69473526c645e252cbeed5680.mesh", "res://.import/cabinetBedDrawer.obj-dbd964a69473526c645e252cbeed5680.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

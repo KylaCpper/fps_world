@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/table.obj-8475993f2cfcf6b375dd1d83133f7c2b.mesh"
+
+[deps]
+
+files=[ "res://.import/table.obj-8475993f2cfcf6b375dd1d83133f7c2b.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/table.obj"
+dest_files=[ "res://.import/table.obj-8475993f2cfcf6b375dd1d83133f7c2b.mesh", "res://.import/table.obj-8475993f2cfcf6b375dd1d83133f7c2b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

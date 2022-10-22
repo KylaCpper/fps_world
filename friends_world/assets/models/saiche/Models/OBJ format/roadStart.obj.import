@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStart.obj-409f9617f9409e2b892faea6fc634085.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStart.obj-409f9617f9409e2b892faea6fc634085.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadStart.obj"
+dest_files=[ "res://.import/roadStart.obj-409f9617f9409e2b892faea6fc634085.mesh", "res://.import/roadStart.obj-409f9617f9409e2b892faea6fc634085.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

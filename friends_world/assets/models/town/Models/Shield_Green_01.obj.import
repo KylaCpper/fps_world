@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Shield_Green_01.obj-f83a907d162de9ff95edad77c78a316e.mesh"
+
+[deps]
+
+files=[ "res://.import/Shield_Green_01.obj-f83a907d162de9ff95edad77c78a316e.mesh" ]
+
+source_file="res://assets/models/town/Models/Shield_Green_01.obj"
+dest_files=[ "res://.import/Shield_Green_01.obj-f83a907d162de9ff95edad77c78a316e.mesh", "res://.import/Shield_Green_01.obj-f83a907d162de9ff95edad77c78a316e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

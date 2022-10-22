@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/speakerSmall.obj-a6f112d34c0c57f80e0a72343c740117.mesh"
+
+[deps]
+
+files=[ "res://.import/speakerSmall.obj-a6f112d34c0c57f80e0a72343c740117.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/speakerSmall.obj"
+dest_files=[ "res://.import/speakerSmall.obj-a6f112d34c0c57f80e0a72343c740117.mesh", "res://.import/speakerSmall.obj-a6f112d34c0c57f80e0a72343c740117.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

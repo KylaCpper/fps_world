@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/radio.obj-4686692d31f0f031f351124a3533c8df.mesh"
+
+[deps]
+
+files=[ "res://.import/radio.obj-4686692d31f0f031f351124a3533c8df.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/radio.obj"
+dest_files=[ "res://.import/radio.obj-4686692d31f0f031f351124a3533c8df.mesh", "res://.import/radio.obj-4686692d31f0f031f351124a3533c8df.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

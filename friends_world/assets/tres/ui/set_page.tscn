@@ -1,0 +1,286 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/tres/ui/button_hover.tres" type="StyleBox" id=1]
+[ext_resource path="res://assets/tres/ui/button_press.tres" type="StyleBox" id=2]
+[ext_resource path="res://assets/tres/ui/button.tres" type="StyleBox" id=3]
+[ext_resource path="res://assets/font/dynamicfont.tres" type="DynamicFont" id=4]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Panel
+
+# class member variables go here, for example:
+# var a = 2
+# var b = \"textvar\"
+var set_data={
+	
+}
+func _ready():
+	# Called when the node is added to the scene for the first time.
+	# Initialization here
+	
+	get_node(\"sure\").connect(\"pressed\",self,\"_sure\")
+	get_node(\"cannel\").connect(\"pressed\",self,\"_cannel\")
+	get_node(\"sound/bar\").connect(\"value_changed\",self,\"_sound\")
+	get_node(\"music/bar\").connect(\"value_changed\",self,\"_music\")
+	
+	set_data[\"sound\"]=Overall.set_data.sound
+	set_data[\"music\"]=Overall.set_data.music
+	get_node(\"sound/bar\").value=Overall.set_data.sound
+	get_node(\"music/bar\").value=Overall.set_data.music
+	pass
+func _sure():
+	
+	Overall.set_data.sound=set_data.sound
+	Overall.set_data.music=set_data.music
+	Function.SetSaveData(\"set.save\",Overall.set_data)
+	#set sound
+	AudioServer.set_bus_volume_db(2,-60+Overall.set_data.sound*0.6)
+	pass
+func _cannel():
+	
+	set_data.sound=Overall.set_data.sound
+	set_data.music=Overall.set_data.music
+	$sound/bar.value=Overall.set_data.sound
+	$music/bar.value=Overall.set_data.music
+	hide()
+	pass
+func _sound(val):
+	set_data.sound=val
+	$sound/num.text=str(val)+\"%\"
+	pass
+func _music(val):
+	set_data.music=val
+	$music/num.text=str(val)+\"%\"
+	pass
+#func _process(delta):
+#	# Called every frame. Delta is time since last frame.
+#	# Update game logic here.
+#	pass
+"
+
+[node name="set_page" type="Panel"]
+
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 1, 1, 0.806627 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 160.0
+margin_top = 120.0
+margin_right = 890.0
+margin_bottom = 460.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+script = SubResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="sure" type="Button" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 140.0
+margin_top = 250.0
+margin_right = 280.0
+margin_bottom = 300.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_styles/hover = ExtResource( 1 )
+custom_styles/pressed = ExtResource( 2 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 4 )
+toggle_mode = false
+enabled_focus_mode = 0
+shortcut = null
+group = null
+text = "sure"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_fonts", "custom_styles" ]
+
+[node name="cannel" type="Button" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 430.0
+margin_top = 250.0
+margin_right = 570.0
+margin_bottom = 300.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_styles/hover = ExtResource( 1 )
+custom_styles/pressed = ExtResource( 2 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 4 )
+toggle_mode = false
+enabled_focus_mode = 0
+shortcut = null
+group = null
+text = "cannel"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_fonts", "custom_styles" ]
+
+[node name="sound" type="Label" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 140.0
+margin_top = 60.0
+margin_right = 200.0
+margin_bottom = 110.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "sound:"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="bar" type="HScrollBar" parent="sound" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 90.0
+margin_top = 20.0
+margin_right = 380.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 0
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+custom_step = -1.0
+
+[node name="num" type="Label" parent="sound" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 400.0
+margin_right = 460.0
+margin_bottom = 50.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "0%"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="music" type="Label" parent="." index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 140.0
+margin_top = 120.0
+margin_right = 200.0
+margin_bottom = 170.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "music:"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="bar" type="HScrollBar" parent="music" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 90.0
+margin_top = 20.0
+margin_right = 380.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 0
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+custom_step = -1.0
+
+[node name="num" type="Label" parent="music" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 400.0
+margin_right = 460.0
+margin_bottom = 50.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "0%"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+

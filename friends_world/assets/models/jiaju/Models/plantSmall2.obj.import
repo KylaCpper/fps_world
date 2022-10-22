@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/plantSmall2.obj-9cd63c3f3d1c15de333265be6929323d.mesh"
+
+[deps]
+
+files=[ "res://.import/plantSmall2.obj-9cd63c3f3d1c15de333265be6929323d.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/plantSmall2.obj"
+dest_files=[ "res://.import/plantSmall2.obj-9cd63c3f3d1c15de333265be6929323d.mesh", "res://.import/plantSmall2.obj-9cd63c3f3d1c15de333265be6929323d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

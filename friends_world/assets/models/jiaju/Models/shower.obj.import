@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/shower.obj-82ee6f7a905b1c05e03dba7e4bc1dea9.mesh"
+
+[deps]
+
+files=[ "res://.import/shower.obj-82ee6f7a905b1c05e03dba7e4bc1dea9.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/shower.obj"
+dest_files=[ "res://.import/shower.obj-82ee6f7a905b1c05e03dba7e4bc1dea9.mesh", "res://.import/shower.obj-82ee6f7a905b1c05e03dba7e4bc1dea9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

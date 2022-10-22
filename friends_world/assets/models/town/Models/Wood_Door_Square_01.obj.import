@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Door_Square_01.obj-39f0a0a523860b481340800903fe0fcd.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Door_Square_01.obj-39f0a0a523860b481340800903fe0fcd.mesh" ]
+
+source_file="res://assets/models/town/Models/Wood_Door_Square_01.obj"
+dest_files=[ "res://.import/Wood_Door_Square_01.obj-39f0a0a523860b481340800903fe0fcd.mesh", "res://.import/Wood_Door_Square_01.obj-39f0a0a523860b481340800903fe0fcd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

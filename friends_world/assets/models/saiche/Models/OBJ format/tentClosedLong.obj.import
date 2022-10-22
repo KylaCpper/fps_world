@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tentClosedLong.obj-5a587a18505dd049e9db2a059f621dca.mesh"
+
+[deps]
+
+files=[ "res://.import/tentClosedLong.obj-5a587a18505dd049e9db2a059f621dca.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/tentClosedLong.obj"
+dest_files=[ "res://.import/tentClosedLong.obj-5a587a18505dd049e9db2a059f621dca.mesh", "res://.import/tentClosedLong.obj-5a587a18505dd049e9db2a059f621dca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/toilet.obj-05186a8e99a1038e33ce04423735be31.mesh"
+
+[deps]
+
+files=[ "res://.import/toilet.obj-05186a8e99a1038e33ce04423735be31.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/toilet.obj"
+dest_files=[ "res://.import/toilet.obj-05186a8e99a1038e33ce04423735be31.mesh", "res://.import/toilet.obj-05186a8e99a1038e33ce04423735be31.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

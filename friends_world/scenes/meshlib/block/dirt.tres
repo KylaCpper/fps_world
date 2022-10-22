@@ -1,0 +1,7 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+
+flags = 23
+load_path = "res://.import/dirt.png-3e7946b416b9d4a34b98b7cd73969158.s3tc.stex"
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bamboo.obj-cdd93bc1f333002f8e197f8c61db79aa.mesh"
+
+[deps]
+
+files=[ "res://.import/bamboo.obj-cdd93bc1f333002f8e197f8c61db79aa.mesh" ]
+
+source_file="res://assets/models/ziran/Models/OBJ format/bamboo.obj"
+dest_files=[ "res://.import/bamboo.obj-cdd93bc1f333002f8e197f8c61db79aa.mesh", "res://.import/bamboo.obj-cdd93bc1f333002f8e197f8c61db79aa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

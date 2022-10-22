@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammo_uzi.obj-4cdfd74f0f03a0d64e64f34a664457dc.mesh"
+
+[deps]
+
+files=[ "res://.import/ammo_uzi.obj-4cdfd74f0f03a0d64e64f34a664457dc.mesh" ]
+
+source_file="res://assets/models/gun/Models/ammo_uzi.obj"
+dest_files=[ "res://.import/ammo_uzi.obj-4cdfd74f0f03a0d64e64f34a664457dc.mesh", "res://.import/ammo_uzi.obj-4cdfd74f0f03a0d64e64f34a664457dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

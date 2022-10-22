@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/kitchenCabinetCornerInner.obj-36a8f861355d2685a23e0f8329de95a3.mesh"
+
+[deps]
+
+files=[ "res://.import/kitchenCabinetCornerInner.obj-36a8f861355d2685a23e0f8329de95a3.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/kitchenCabinetCornerInner.obj"
+dest_files=[ "res://.import/kitchenCabinetCornerInner.obj-36a8f861355d2685a23e0f8329de95a3.mesh", "res://.import/kitchenCabinetCornerInner.obj-36a8f861355d2685a23e0f8329de95a3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

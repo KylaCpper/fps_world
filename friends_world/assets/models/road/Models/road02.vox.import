@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/road02.vox-43f5ee5ec2c27c39a4cd990b94ad199c.mesh"
+
+[deps]
+
+source_file="res://assets/models/road/Models/road02.vox"
+dest_files=[ "res://.import/road02.vox-43f5ee5ec2c27c39a4cd990b94ad199c.mesh" ]
+
+[params]
+

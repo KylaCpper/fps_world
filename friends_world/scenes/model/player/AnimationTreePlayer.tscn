@@ -1,0 +1,220 @@
+[gd_scene format=2]
+
+[node name="AnimationTreePlayer" type="AnimationTreePlayer"]
+
+playback_process_mode = 1
+master_player = NodePath("../AnimationPlayer")
+base_path = NodePath("..")
+active = true
+data = {
+"active": true,
+"connections": [ "stop", "attack", 0, "anim 4", "attack", 1, "event", "hurt", 0, "anim 5", "hurt", 1, "clip", "jump", 0, "anim 6", "jump", 1, "hand1", "walk", 0, "hand2", "walk", 1, "walk", "walk_mode", 0, "scale", "walk_mode", 1, "anim 10", "hand3", 0, "anim 8", "hand3", 1, "an", "hand1", 0, "ani", "hand1", 1, "anim 2", "hand2", 0, "anim", "hand2", 1, "jump", "walk_speed", 0, "hand3", "run", 0, "hand4", "run", 1, "anim 11", "hand4", 0, "anim 9", "hand4", 1, "gun", "clip", 0, "anim 13", "clip", 1, "run", "scale", 0, "attack", "event", 0, "anim 7", "event", 1, "walk_speed", "stop", 0, "anim 3", "stop", 1, "hurt", "out", 0, "walk_mode", "gun", 0, "anim 12", "gun", 1 ],
+"master": NodePath("../AnimationPlayer"),
+"nodes": [ {
+"filter": [  ],
+"from": "hand_walk",
+"id": "ani",
+"position": Vector2( 5, 151 ),
+"type": "animation"
+}, {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.0,
+"filter": [  ],
+"id": "attack",
+"mix": false,
+"position": Vector2( 1106, 17 ),
+"type": "oneshot"
+}, {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.7,
+"filter": [  ],
+"id": "hurt",
+"mix": false,
+"position": Vector2( 1312, 20 ),
+"type": "oneshot"
+}, {
+"blend": 0.0,
+"filter": [  ],
+"id": "jump",
+"position": Vector2( 824, 19 ),
+"type": "blend2"
+}, {
+"blend": 0.0,
+"filter": [  ],
+"id": "walk",
+"position": Vector2( 206, 26 ),
+"type": "blend2"
+}, {
+"filter": [  ],
+"from": "item_run",
+"id": "anim 9",
+"position": Vector2( 233, 327 ),
+"type": "animation"
+}, {
+"blend": 0.0,
+"filter": [  ],
+"id": "walk_mode",
+"position": Vector2( 545, 14 ),
+"type": "blend2"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "an",
+"position": Vector2( 9, 48 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "run",
+"id": "anim 11",
+"position": Vector2( 238, 222 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "event",
+"id": "anim 7",
+"position": Vector2( 1107, 156 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "hurt",
+"id": "anim 5",
+"position": Vector2( 1213, 158 ),
+"type": "animation"
+}, {
+"id": "hand3",
+"mix": 0.0,
+"position": Vector2( 400, 45 ),
+"type": "mix"
+}, {
+"filter": [  ],
+"from": "hand_run",
+"id": "anim 8",
+"position": Vector2( 291, 131 ),
+"type": "animation"
+}, {
+"id": "hand1",
+"mix": 1.0,
+"position": Vector2( 121, 46 ),
+"type": "mix"
+}, {
+"id": "hand2",
+"mix": 1.0,
+"position": Vector2( 127, 204 ),
+"type": "mix"
+}, {
+"filter": [  ],
+"from": "attack",
+"id": "anim 4",
+"position": Vector2( 999, 158 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "run",
+"id": "anim 10",
+"position": Vector2( 298, 32 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "jump",
+"id": "anim 6",
+"position": Vector2( 727, 154 ),
+"type": "animation"
+}, {
+"id": "walk_speed",
+"position": Vector2( 910, 17 ),
+"scale": 1.0,
+"type": "timescale"
+}, {
+"filter": [  ],
+"from": "stop",
+"id": "anim 3",
+"position": Vector2( 883, 150 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "gun",
+"id": "anim 12",
+"position": Vector2( 563, 148 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "gun_clip",
+"id": "anim 13",
+"position": Vector2( 565, 236 ),
+"type": "animation"
+}, {
+"blend": 1.0,
+"filter": [  ],
+"id": "run",
+"position": Vector2( 452, 143 ),
+"type": "blend2"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "anim 2",
+"position": Vector2( 18, 253 ),
+"type": "animation"
+}, {
+"id": "hand4",
+"mix": 1.0,
+"position": Vector2( 373, 226 ),
+"type": "mix"
+}, {
+"autorestart": false,
+"autorestart_delay": 1.0,
+"autorestart_random_delay": 1.0,
+"fade_in": 0.0,
+"fade_out": 0.0,
+"filter": [  ],
+"id": "clip",
+"mix": false,
+"position": Vector2( 727, 18 ),
+"type": "oneshot"
+}, {
+"id": "scale",
+"position": Vector2( 473, 190 ),
+"scale": 2.0,
+"type": "timescale"
+}, {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.0,
+"filter": [  ],
+"id": "event",
+"mix": false,
+"position": Vector2( 1211, 15 ),
+"type": "oneshot"
+}, {
+"blend": 1.0,
+"filter": [  ],
+"id": "stop",
+"position": Vector2( 1027, 19 ),
+"type": "blend2"
+}, {
+"filter": [  ],
+"from": "item_walk",
+"id": "anim",
+"position": Vector2( 18, 322 ),
+"type": "animation"
+}, {
+"id": "out",
+"position": Vector2( 1325, 174 ),
+"type": "output"
+}, {
+"id": "gun",
+"mix": 0.0,
+"position": Vector2( 659, 14 ),
+"type": "mix"
+} ]
+}
+_sections_unfolded = [ "Playback" ]
+
+

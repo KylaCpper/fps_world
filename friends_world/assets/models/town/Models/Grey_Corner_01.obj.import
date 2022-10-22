@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Corner_01.obj-cbb5fa786dca5abd3656c11fb27f3ca2.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Corner_01.obj-cbb5fa786dca5abd3656c11fb27f3ca2.mesh" ]
+
+source_file="res://assets/models/town/Models/Grey_Corner_01.obj"
+dest_files=[ "res://.import/Grey_Corner_01.obj-cbb5fa786dca5abd3656c11fb27f3ca2.mesh", "res://.import/Grey_Corner_01.obj-cbb5fa786dca5abd3656c11fb27f3ca2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bench.obj-d5e8b5062f7ad8cc505cb4775179cdb5.mesh"
+
+[deps]
+
+files=[ "res://.import/bench.obj-d5e8b5062f7ad8cc505cb4775179cdb5.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bench.obj"
+dest_files=[ "res://.import/bench.obj-d5e8b5062f7ad8cc505cb4775179cdb5.mesh", "res://.import/bench.obj-d5e8b5062f7ad8cc505cb4775179cdb5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

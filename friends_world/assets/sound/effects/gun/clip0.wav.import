@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/clip0.wav-11b5456b6c3d5c5ee3ed307b3fbe9bad.sample"
+
+[deps]
+
+source_file="res://assets/sound/effects/gun/clip0.wav"
+dest_files=[ "res://.import/clip0.wav-11b5456b6c3d5c5ee3ed307b3fbe9bad.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

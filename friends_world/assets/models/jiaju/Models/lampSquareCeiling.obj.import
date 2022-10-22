@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/lampSquareCeiling.obj-4c0d973b9346e7d96363cec8061c02e2.mesh"
+
+[deps]
+
+files=[ "res://.import/lampSquareCeiling.obj-4c0d973b9346e7d96363cec8061c02e2.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/lampSquareCeiling.obj"
+dest_files=[ "res://.import/lampSquareCeiling.obj-4c0d973b9346e7d96363cec8061c02e2.mesh", "res://.import/lampSquareCeiling.obj-4c0d973b9346e7d96363cec8061c02e2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

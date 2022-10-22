@@ -1,0 +1,112 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/models/jiaju/door1.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://assets/models/jiaju/door1.tres" type="Material" id=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends MeshInstance
+# class member variables go here, for example:
+# var a = 2
+# var b = \"textvar\"
+var open=0
+onready var ani=$\"../ani\"
+func _ready():
+	# Called when the node is added to the scene for the first time.
+	# Initialization here
+	set_process_input(true)
+	pass
+func _on_event():
+	if ani.is_playing():
+		var s=ani.current_animation_position
+		if !open:
+			ani.play(\"open\")
+		else:
+			ani.play_backwards(\"open\")
+		ani.seek(s,true)
+	else:
+		if !open:
+			ani.play(\"open\")
+		else:
+			ani.play_backwards(\"open\")
+	open=!open
+func _input(event):
+	if event.is_action_pressed(\"e\"):
+		_on_event()
+#func _process(delta):
+#	# Called every frame. Delta is time since last frame.
+#	# Update game logic here.
+#	pass"
+
+[sub_resource type="ConcavePolygonShape" id=2]
+
+data = PoolVector3Array( -5, 0, -1, -5, 5, 0, -5, 0, 0, -5, 5, 0, -5, 7, 1, -5, 5, 1, -5, 0, -1, -5, 7, 0, -5, 5, 0, -5, 5, 0, -5, 7, 0, -5, 7, 1, -5, 0, -1, -5, 13, 0, -5, 7, 0, -5, 0, -1, -5, 13, -1, -5, 13, 0, -1, 3, -1, -1, 5, 0, -1, 3, 0, -1, 3, -1, -1, 5, -1, -1, 5, 0, -1, 6, -1, -1, 8, 0, -1, 6, 0, -1, 6, -1, -1, 8, -1, -1, 8, 0, -1, 9, -1, -1, 11, 0, -1, 9, 0, -1, 9, -1, -1, 11, -1, -1, 11, 0, 3, 3, -1, 3, 5, 0, 3, 3, 0, 3, 3, -1, 3, 5, -1, 3, 5, 0, 3, 6, -1, 3, 8, 0, 3, 6, 0, 3, 6, -1, 3, 8, -1, 3, 8, 0, 3, 9, -1, 3, 11, 0, 3, 9, 0, 3, 9, -1, 3, 11, -1, 3, 11, 0, -4, 5, 0, -4, 5, 1, -4, 7, 1, -4, 5, 0, -4, 7, 1, -4, 7, 0, -3, 3, -1, -3, 3, 0, -3, 5, 0, -3, 3, -1, -3, 5, 0, -3, 5, -1, -3, 6, -1, -3, 6, 0, -3, 8, 0, -3, 6, -1, -3, 8, 0, -3, 8, -1, -3, 9, -1, -3, 9, 0, -3, 11, 0, -3, 9, -1, -3, 11, 0, -3, 11, -1, 1, 3, -1, 1, 3, 0, 1, 5, 0, 1, 3, -1, 1, 5, 0, 1, 5, -1, 1, 6, -1, 1, 6, 0, 1, 8, 0, 1, 6, -1, 1, 8, 0, 1, 8, -1, 1, 9, -1, 1, 9, 0, 1, 11, 0, 1, 9, -1, 1, 11, 0, 1, 11, -1, 5, 0, -1, 5, 0, 0, 5, 13, 0, 5, 0, -1, 5, 13, 0, 5, 13, -1, -5, 7, 1, -4, 5, 1, -5, 5, 1, -5, 7, 1, -4, 7, 1, -4, 5, 1, -5, 5, 0, -4, 5, 0, -5, 0, 0, -5, 13, 0, -4, 7, 0, -5, 7, 0, -4, 5, 0, -3, 3, 0, -5, 0, 0, -4, 7, 0, -3, 3, 0, -4, 5, 0, -4, 7, 0, -3, 5, 0, -3, 3, 0, -4, 7, 0, -3, 6, 0, -3, 5, 0, -5, 13, 0, -3, 8, 0, -4, 7, 0, -4, 7, 0, -3, 8, 0, -3, 6, 0, -5, 13, 0, -3, 9, 0, -3, 8, 0, -5, 13, 0, -3, 11, 0, -3, 9, 0, -3, 3, 0, -1, 3, 0, -5, 0, 0, -3, 6, 0, -1, 5, 0, -3, 5, 0, -3, 6, 0, -1, 6, 0, -1, 5, 0, -3, 9, 0, -1, 8, 0, -3, 8, 0, -3, 9, 0, -1, 9, 0, -1, 8, 0, -5, 13, 0, -1, 11, 0, -3, 11, 0, -1, 3, 0, 1, 3, 0, -5, 0, 0, -1, 11, 0, 1, 3, 0, -1, 9, 0, -1, 9, 0, 1, 3, 0, -1, 8, 0, -1, 6, 0, 1, 3, 0, -1, 5, 0, -1, 8, 0, 1, 3, 0, -1, 6, 0, -1, 5, 0, 1, 3, 0, -1, 3, 0, -1, 11, 0, 1, 5, 0, 1, 3, 0, -1, 11, 0, 1, 6, 0, 1, 5, 0, -1, 11, 0, 1, 8, 0, 1, 6, 0, -1, 11, 0, 1, 9, 0, 1, 8, 0, -5, 13, 0, 1, 11, 0, -1, 11, 0, -1, 11, 0, 1, 11, 0, 1, 9, 0, 1, 3, 0, 3, 3, 0, -5, 0, 0, 1, 6, 0, 3, 5, 0, 1, 5, 0, 1, 6, 0, 3, 6, 0, 3, 5, 0, 1, 9, 0, 3, 8, 0, 1, 8, 0, 1, 9, 0, 3, 9, 0, 3, 8, 0, -5, 13, 0, 3, 11, 0, 1, 11, 0, 3, 6, 0, 5, 0, 0, 3, 5, 0, 3, 11, 0, 5, 0, 0, 3, 9, 0, 3, 9, 0, 5, 0, 0, 3, 8, 0, 3, 3, 0, 5, 0, 0, -5, 0, 0, 3, 8, 0, 5, 0, 0, 3, 6, 0, 3, 5, 0, 5, 0, 0, 3, 3, 0, -5, 13, 0, 5, 13, 0, 3, 11, 0, 3, 11, 0, 5, 13, 0, 5, 0, 0, -5, 13, -1, -5, 0, -1, -3, 3, -1, -5, 13, -1, -3, 3, -1, -3, 5, -1, -5, 13, -1, -3, 5, -1, -3, 6, -1, -5, 13, -1, -3, 6, -1, -3, 8, -1, -5, 13, -1, -3, 8, -1, -3, 9, -1, -5, 13, -1, -3, 9, -1, -3, 11, -1, -3, 3, -1, -5, 0, -1, -1, 3, -1, -3, 6, -1, -3, 5, -1, -1, 5, -1, -3, 6, -1, -1, 5, -1, -1, 6, -1, -3, 9, -1, -3, 8, -1, -1, 8, -1, -3, 9, -1, -1, 8, -1, -1, 9, -1, -5, 13, -1, -3, 11, -1, -1, 11, -1, -1, 9, -1, -1, 8, -1, 1, 3, -1, -1, 11, -1, -1, 9, -1, 1, 3, -1, -1, 6, -1, -1, 5, -1, 1, 3, -1, -1, 3, -1, -5, 0, -1, 1, 3, -1, -1, 8, -1, -1, 6, -1, 1, 3, -1, -1, 5, -1, -1, 3, -1, 1, 3, -1, -1, 11, -1, 1, 3, -1, 1, 5, -1, -1, 11, -1, 1, 5, -1, 1, 6, -1, -1, 11, -1, 1, 6, -1, 1, 8, -1, -1, 11, -1, 1, 8, -1, 1, 9, -1, -5, 13, -1, -1, 11, -1, 1, 11, -1, -1, 11, -1, 1, 9, -1, 1, 11, -1, 1, 3, -1, -5, 0, -1, 3, 3, -1, 1, 6, -1, 1, 5, -1, 3, 5, -1, 1, 6, -1, 3, 5, -1, 3, 6, -1, 1, 9, -1, 1, 8, -1, 3, 8, -1, 1, 9, -1, 3, 8, -1, 3, 9, -1, -5, 13, -1, 1, 11, -1, 3, 11, -1, 3, 6, -1, 3, 5, -1, 5, 0, -1, 3, 11, -1, 3, 9, -1, 5, 0, -1, 3, 9, -1, 3, 8, -1, 5, 0, -1, 3, 3, -1, -5, 0, -1, 5, 0, -1, 3, 8, -1, 3, 6, -1, 5, 0, -1, 3, 5, -1, 3, 3, -1, 5, 0, -1, -5, 13, -1, 3, 11, -1, 5, 13, -1, 3, 11, -1, 5, 0, -1, 5, 13, -1, 5, 0, 0, -5, 0, -1, -5, 0, 0, 5, 0, 0, 5, 0, -1, -5, 0, -1, -4, 5, 1, -5, 5, 0, -5, 5, 1, -4, 5, 1, -4, 5, 0, -5, 5, 0, -1, 5, 0, -3, 5, -1, -3, 5, 0, -1, 5, 0, -1, 5, -1, -3, 5, -1, 3, 5, 0, 1, 5, -1, 1, 5, 0, 3, 5, 0, 3, 5, -1, 1, 5, -1, -1, 8, 0, -3, 8, -1, -3, 8, 0, -1, 8, 0, -1, 8, -1, -3, 8, -1, 3, 8, 0, 1, 8, -1, 1, 8, 0, 3, 8, 0, 3, 8, -1, 1, 8, -1, -1, 11, 0, -3, 11, -1, -3, 11, 0, -1, 11, 0, -1, 11, -1, -3, 11, -1, 3, 11, 0, 1, 11, -1, 1, 11, 0, 3, 11, 0, 3, 11, -1, 1, 11, -1, -1, 3, 0, -3, 3, 0, -3, 3, -1, -1, 3, 0, -3, 3, -1, -1, 3, -1, 3, 3, 0, 1, 3, 0, 1, 3, -1, 3, 3, 0, 1, 3, -1, 3, 3, -1, -1, 6, 0, -3, 6, 0, -3, 6, -1, -1, 6, 0, -3, 6, -1, -1, 6, -1, 3, 6, 0, 1, 6, 0, 1, 6, -1, 3, 6, 0, 1, 6, -1, 3, 6, -1, -4, 7, 1, -5, 7, 1, -5, 7, 0, -4, 7, 1, -5, 7, 0, -4, 7, 0, -1, 9, 0, -3, 9, 0, -3, 9, -1, -1, 9, 0, -3, 9, -1, -1, 9, -1, 3, 9, 0, 1, 9, 0, 1, 9, -1, 3, 9, 0, 1, 9, -1, 3, 9, -1, 5, 13, 0, -5, 13, 0, -5, 13, -1, 5, 13, 0, -5, 13, -1, 5, 13, -1 )
+
+[sub_resource type="Animation" id=3]
+
+length = 0.5
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ) ]
+}
+
+[node name="door" type="Spatial" index="0"]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="door" type="MeshInstance" parent="." index="0"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00328, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 2 )
+script = SubResource( 1 )
+_sections_unfolded = [ "Transform", "material" ]
+
+[node name="StaticBody" type="StaticBody" parent="door" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 0.5
+bounce = 0.5
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+_sections_unfolded = [ "Collision" ]
+
+[node name="CollisionShape" type="CollisionShape" parent="door/StaticBody" index="0"]
+
+shape = SubResource( 2 )
+disabled = false
+
+[node name="ani" type="AnimationPlayer" parent="." index="1"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/open = SubResource( 3 )
+blend_times = [  ]
+
+

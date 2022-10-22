@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flagGreen.obj-8f85f67a5002d45822a5b7a47d68978a.mesh"
+
+[deps]
+
+files=[ "res://.import/flagGreen.obj-8f85f67a5002d45822a5b7a47d68978a.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/flagGreen.obj"
+dest_files=[ "res://.import/flagGreen.obj-8f85f67a5002d45822a5b7a47d68978a.mesh", "res://.import/flagGreen.obj-8f85f67a5002d45822a5b7a47d68978a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

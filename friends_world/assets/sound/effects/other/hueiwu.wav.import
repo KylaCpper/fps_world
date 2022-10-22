@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hueiwu.wav-835b1a428bcac86108adaa0be8019a10.sample"
+
+[deps]
+
+source_file="res://assets/sound/effects/other/hueiwu.wav"
+dest_files=[ "res://.import/hueiwu.wav-835b1a428bcac86108adaa0be8019a10.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

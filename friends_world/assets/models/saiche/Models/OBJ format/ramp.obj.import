@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ramp.obj-269c0e579d0ee2db643ab63f41d55e14.mesh"
+
+[deps]
+
+files=[ "res://.import/ramp.obj-269c0e579d0ee2db643ab63f41d55e14.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/ramp.obj"
+dest_files=[ "res://.import/ramp.obj-269c0e579d0ee2db643ab63f41d55e14.mesh", "res://.import/ramp.obj-269c0e579d0ee2db643ab63f41d55e14.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

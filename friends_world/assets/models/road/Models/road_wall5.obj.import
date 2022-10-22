@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_wall5.obj-aef794f0c820bf1a285aabffaecd703c.mesh"
+
+[deps]
+
+files=[ "res://.import/road_wall5.obj-aef794f0c820bf1a285aabffaecd703c.mesh" ]
+
+source_file="res://assets/models/road/Models/road_wall5.obj"
+dest_files=[ "res://.import/road_wall5.obj-aef794f0c820bf1a285aabffaecd703c.mesh", "res://.import/road_wall5.obj-aef794f0c820bf1a285aabffaecd703c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/friends.obj-333d60784eba64c47da970ace9430438.mesh"
+
+[deps]
+
+files=[ "res://.import/friends.obj-333d60784eba64c47da970ace9430438.mesh" ]
+
+source_file="res://assets/models/plane/friends.obj"
+dest_files=[ "res://.import/friends.obj-333d60784eba64c47da970ace9430438.mesh", "res://.import/friends.obj-333d60784eba64c47da970ace9430438.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

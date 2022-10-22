@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Roof_Straight_Green_01.obj-5d0cfe7f395897084bf7a8480c6e9c57.mesh"
+
+[deps]
+
+files=[ "res://.import/Roof_Straight_Green_01.obj-5d0cfe7f395897084bf7a8480c6e9c57.mesh" ]
+
+source_file="res://assets/models/town/Models/Roof_Straight_Green_01.obj"
+dest_files=[ "res://.import/Roof_Straight_Green_01.obj-5d0cfe7f395897084bf7a8480c6e9c57.mesh", "res://.import/Roof_Straight_Green_01.obj-5d0cfe7f395897084bf7a8480c6e9c57.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Plate_Curve_01.obj-91e7b6e0d2f17746a509c7860417fb39.mesh"
+
+[deps]
+
+files=[ "res://.import/Plate_Curve_01.obj-91e7b6e0d2f17746a509c7860417fb39.mesh" ]
+
+source_file="res://assets/models/town/Models/Plate_Curve_01.obj"
+dest_files=[ "res://.import/Plate_Curve_01.obj-91e7b6e0d2f17746a509c7860417fb39.mesh", "res://.import/Plate_Curve_01.obj-91e7b6e0d2f17746a509c7860417fb39.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

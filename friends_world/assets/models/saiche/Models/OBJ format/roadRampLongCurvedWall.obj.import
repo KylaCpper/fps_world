@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadRampLongCurvedWall.obj-3949aff81a542ae9a4cd86d769129cba.mesh"
+
+[deps]
+
+files=[ "res://.import/roadRampLongCurvedWall.obj-3949aff81a542ae9a4cd86d769129cba.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadRampLongCurvedWall.obj"
+dest_files=[ "res://.import/roadRampLongCurvedWall.obj-3949aff81a542ae9a4cd86d769129cba.mesh", "res://.import/roadRampLongCurvedWall.obj-3949aff81a542ae9a4cd86d769129cba.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

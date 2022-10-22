@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadCornerSmallBorder.obj-a93adbaaeb5a624a7d07db4f0244e688.mesh"
+
+[deps]
+
+files=[ "res://.import/roadCornerSmallBorder.obj-a93adbaaeb5a624a7d07db4f0244e688.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadCornerSmallBorder.obj"
+dest_files=[ "res://.import/roadCornerSmallBorder.obj-a93adbaaeb5a624a7d07db4f0244e688.mesh", "res://.import/roadCornerSmallBorder.obj-a93adbaaeb5a624a7d07db4f0244e688.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

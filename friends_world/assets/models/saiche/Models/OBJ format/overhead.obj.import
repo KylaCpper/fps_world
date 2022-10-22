@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/overhead.obj-9746c66004cd8c49cc3809c117a32f89.mesh"
+
+[deps]
+
+files=[ "res://.import/overhead.obj-9746c66004cd8c49cc3809c117a32f89.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/overhead.obj"
+dest_files=[ "res://.import/overhead.obj-9746c66004cd8c49cc3809c117a32f89.mesh", "res://.import/overhead.obj-9746c66004cd8c49cc3809c117a32f89.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

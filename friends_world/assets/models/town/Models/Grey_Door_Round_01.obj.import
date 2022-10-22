@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Door_Round_01.obj-228f6d5e889a15dc91d9db523749bead.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Door_Round_01.obj-228f6d5e889a15dc91d9db523749bead.mesh" ]
+
+source_file="res://assets/models/town/Models/Grey_Door_Round_01.obj"
+dest_files=[ "res://.import/Grey_Door_Round_01.obj-228f6d5e889a15dc91d9db523749bead.mesh", "res://.import/Grey_Door_Round_01.obj-228f6d5e889a15dc91d9db523749bead.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/knife_smooth.obj-4c5a6f286aae4864d216804cd6b57db1.mesh"
+
+[deps]
+
+files=[ "res://.import/knife_smooth.obj-4c5a6f286aae4864d216804cd6b57db1.mesh" ]
+
+source_file="res://assets/models/gun/Models/knife_smooth.obj"
+dest_files=[ "res://.import/knife_smooth.obj-4c5a6f286aae4864d216804cd6b57db1.mesh", "res://.import/knife_smooth.obj-4c5a6f286aae4864d216804cd6b57db1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

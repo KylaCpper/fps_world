@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/doorwayFront.obj-d2f147d9e3f8f4baedaee536b5dc2fd4.mesh"
+
+[deps]
+
+files=[ "res://.import/doorwayFront.obj-d2f147d9e3f8f4baedaee536b5dc2fd4.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/doorwayFront.obj"
+dest_files=[ "res://.import/doorwayFront.obj-d2f147d9e3f8f4baedaee536b5dc2fd4.mesh", "res://.import/doorwayFront.obj-d2f147d9e3f8f4baedaee536b5dc2fd4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,7 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+
+flags = 23
+load_path = "res://.import/dirt_grass.png-e147a85a59cbdfad86c0e047197b2c8d.s3tc.stex"
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/kitchenFridgeBuiltIn.obj-12cfae0ad505d7db60150532849d7642.mesh"
+
+[deps]
+
+files=[ "res://.import/kitchenFridgeBuiltIn.obj-12cfae0ad505d7db60150532849d7642.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/kitchenFridgeBuiltIn.obj"
+dest_files=[ "res://.import/kitchenFridgeBuiltIn.obj-12cfae0ad505d7db60150532849d7642.mesh", "res://.import/kitchenFridgeBuiltIn.obj-12cfae0ad505d7db60150532849d7642.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

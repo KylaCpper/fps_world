@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/treeLarge.obj-02d4e4c615e0a06c8552d75a426ede22.mesh"
+
+[deps]
+
+files=[ "res://.import/treeLarge.obj-02d4e4c615e0a06c8552d75a426ede22.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/treeLarge.obj"
+dest_files=[ "res://.import/treeLarge.obj-02d4e4c615e0a06c8552d75a426ede22.mesh", "res://.import/treeLarge.obj-02d4e4c615e0a06c8552d75a426ede22.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

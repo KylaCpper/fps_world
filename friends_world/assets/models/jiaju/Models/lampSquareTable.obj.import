@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/lampSquareTable.obj-b7f54b511a763ccda70584c58d31cc97.mesh"
+
+[deps]
+
+files=[ "res://.import/lampSquareTable.obj-b7f54b511a763ccda70584c58d31cc97.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/lampSquareTable.obj"
+dest_files=[ "res://.import/lampSquareTable.obj-b7f54b511a763ccda70584c58d31cc97.mesh", "res://.import/lampSquareTable.obj-b7f54b511a763ccda70584c58d31cc97.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

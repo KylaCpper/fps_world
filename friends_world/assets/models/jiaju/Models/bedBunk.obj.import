@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bedBunk.obj-21396bb253f6c3f255092033209a5dbf.mesh"
+
+[deps]
+
+files=[ "res://.import/bedBunk.obj-21396bb253f6c3f255092033209a5dbf.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bedBunk.obj"
+dest_files=[ "res://.import/bedBunk.obj-21396bb253f6c3f255092033209a5dbf.mesh", "res://.import/bedBunk.obj-21396bb253f6c3f255092033209a5dbf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

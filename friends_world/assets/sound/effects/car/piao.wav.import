@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/piao.wav-bb837b504d1a24cc9b27a92f0e4ec5e4.sample"
+
+[deps]
+
+source_file="res://assets/sound/effects/car/piao.wav"
+dest_files=[ "res://.import/piao.wav-bb837b504d1a24cc9b27a92f0e4ec5e4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=true
+compress/mode=0

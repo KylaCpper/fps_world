@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadSplit.obj-80f20eb97c5282ef1e3b31d30400290f.mesh"
+
+[deps]
+
+files=[ "res://.import/roadSplit.obj-80f20eb97c5282ef1e3b31d30400290f.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadSplit.obj"
+dest_files=[ "res://.import/roadSplit.obj-80f20eb97c5282ef1e3b31d30400290f.mesh", "res://.import/roadSplit.obj-80f20eb97c5282ef1e3b31d30400290f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

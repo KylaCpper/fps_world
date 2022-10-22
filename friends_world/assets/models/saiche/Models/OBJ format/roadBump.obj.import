@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadBump.obj-c78e02943369a06d5d0d63aeadeac821.mesh"
+
+[deps]
+
+files=[ "res://.import/roadBump.obj-c78e02943369a06d5d0d63aeadeac821.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadBump.obj"
+dest_files=[ "res://.import/roadBump.obj-c78e02943369a06d5d0d63aeadeac821.mesh", "res://.import/roadBump.obj-c78e02943369a06d5d0d63aeadeac821.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

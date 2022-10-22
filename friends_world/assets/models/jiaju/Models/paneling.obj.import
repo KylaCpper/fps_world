@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/paneling.obj-4079f99888c6df46d0aa6582eb4e429c.mesh"
+
+[deps]
+
+files=[ "res://.import/paneling.obj-4079f99888c6df46d0aa6582eb4e429c.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/paneling.obj"
+dest_files=[ "res://.import/paneling.obj-4079f99888c6df46d0aa6582eb4e429c.mesh", "res://.import/paneling.obj-4079f99888c6df46d0aa6582eb4e429c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

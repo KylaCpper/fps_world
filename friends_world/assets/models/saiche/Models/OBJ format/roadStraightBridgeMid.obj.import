@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStraightBridgeMid.obj-6cce38df4f8417579d094882ef469de8.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStraightBridgeMid.obj-6cce38df4f8417579d094882ef469de8.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadStraightBridgeMid.obj"
+dest_files=[ "res://.import/roadStraightBridgeMid.obj-6cce38df4f8417579d094882ef469de8.mesh", "res://.import/roadStraightBridgeMid.obj-6cce38df4f8417579d094882ef469de8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

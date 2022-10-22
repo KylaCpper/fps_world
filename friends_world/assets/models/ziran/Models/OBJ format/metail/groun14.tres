@@ -1,0 +1,94 @@
+[gd_resource type="ArrayMesh" load_steps=3 format=2]
+
+[ext_resource path="res://assets/models/ziran/Models/OBJ format/Materials/water.tres" type="Material" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+resource_name = "natureKit-water"
+render_priority = 0
+flags_transparent = true
+flags_unshaded = true
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 0.660645, 0.919989, 0.960938, 0.591176 )
+metallic = 0.33
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.5
+roughness_texture_channel = 0
+emission_enabled = true
+emission = Color( 0, 0, 0, 1 )
+emission_energy = 0.0
+emission_operator = 0
+emission_on_uv2 = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = true
+proximity_fade_distance = 1.0
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo", "Ambient Occlusion", "Anisotropy", "Clearcoat", "Depth", "Detail", "Distance Fade", "Emission", "Flags", "Metallic", "NormalMap", "Parameters", "Proximity Fade", "Refraction", "Resource", "Rim", "Roughness", "Subsurf Scatter", "Transmission", "Vertex Color" ]
+
+[resource]
+
+blend_shape_mode = 1
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+surfaces/0 = {
+"aabb": AABB( 0, 0, -10, 10, 2, 10 ),
+"array_data": PoolByteArray( 0, 73, 0, 0, 0, 0, 0, 60, 0, 0, 129, 0, 127, 0, 0, 127, 235, 80, 0, 60, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 129, 0, 127, 0, 0, 127, 0, 0, 0, 60, 0, 73, 0, 64, 0, 0, 0, 60, 0, 0, 129, 0, 127, 0, 0, 127, 235, 80, 223, 198, 0, 0, 0, 64, 0, 0, 0, 60, 0, 0, 129, 0, 127, 0, 0, 127, 0, 0, 223, 198, 0, 0, 0, 0, 0, 201, 0, 60, 0, 0, 127, 0, 129, 0, 0, 127, 0, 0, 0, 60, 0, 73, 0, 0, 0, 201, 0, 60, 0, 0, 127, 0, 129, 0, 0, 127, 235, 208, 0, 60, 0, 0, 0, 64, 0, 201, 0, 60, 0, 0, 127, 0, 129, 0, 0, 127, 0, 0, 223, 198, 0, 73, 0, 64, 0, 201, 0, 60, 0, 0, 127, 0, 129, 0, 0, 127, 235, 208, 223, 198, 0, 0, 0, 64, 0, 0, 0, 60, 127, 0, 0, 0, 0, 0, 127, 127, 0, 0, 223, 198, 0, 0, 0, 0, 0, 0, 0, 60, 127, 0, 0, 0, 0, 0, 127, 127, 0, 0, 0, 60, 0, 0, 0, 64, 0, 201, 0, 60, 127, 0, 0, 0, 0, 0, 127, 127, 235, 208, 223, 198, 0, 0, 0, 0, 0, 201, 0, 60, 127, 0, 0, 0, 0, 0, 127, 127, 235, 208, 0, 60, 0, 0, 0, 0, 0, 201, 0, 60, 0, 129, 0, 0, 129, 0, 0, 129, 0, 0, 203, 208, 0, 0, 0, 0, 0, 0, 0, 60, 0, 129, 0, 0, 129, 0, 0, 129, 0, 0, 0, 60, 0, 73, 0, 0, 0, 201, 0, 60, 0, 129, 0, 0, 129, 0, 0, 129, 235, 208, 203, 208, 0, 73, 0, 0, 0, 0, 0, 60, 0, 129, 0, 0, 129, 0, 0, 129, 235, 208, 0, 60, 0, 73, 0, 0, 0, 0, 0, 60, 129, 0, 0, 0, 0, 0, 129, 127, 0, 0, 0, 60, 0, 73, 0, 64, 0, 0, 0, 60, 129, 0, 0, 0, 0, 0, 129, 127, 0, 0, 223, 198, 0, 73, 0, 0, 0, 201, 0, 60, 129, 0, 0, 0, 0, 0, 129, 127, 235, 80, 0, 60, 0, 73, 0, 64, 0, 201, 0, 60, 129, 0, 0, 0, 0, 0, 129, 127, 235, 80, 223, 198 ),
+"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 3, 0, 2, 0, 1, 0, 4, 0, 5, 0, 6, 0, 7, 0, 6, 0, 5, 0, 8, 0, 9, 0, 10, 0, 11, 0, 10, 0, 9, 0, 12, 0, 13, 0, 14, 0, 15, 0, 14, 0, 13, 0, 16, 0, 17, 0, 18, 0, 19, 0, 18, 0, 17, 0 ),
+"blend_shape_data": [  ],
+"format": 98071,
+"index_count": 30,
+"material": SubResource( 1 ),
+"name": "natureKit-wood",
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 20
+}
+surfaces/1 = {
+"aabb": AABB( 0, 2, -10, 10, 1.00136e-05, 10 ),
+"array_data": PoolByteArray( 0, 0, 0, 64, 0, 0, 0, 60, 0, 127, 0, 0, 127, 0, 0, 129, 0, 0, 0, 60, 0, 0, 0, 64, 0, 201, 0, 60, 0, 127, 0, 0, 127, 0, 0, 129, 0, 0, 203, 208, 0, 73, 0, 64, 0, 0, 0, 60, 0, 127, 0, 0, 127, 0, 0, 129, 235, 80, 0, 60, 0, 73, 0, 64, 0, 201, 0, 60, 0, 127, 0, 0, 127, 0, 0, 129, 235, 80, 203, 208 ),
+"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 3, 0, 2, 0, 1, 0 ),
+"blend_shape_data": [  ],
+"format": 98071,
+"index_count": 6,
+"material": ExtResource( 1 ),
+"name": "natureKit-water",
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 4
+}
+_sections_unfolded = [ "surface_1", "surface_2" ]
+

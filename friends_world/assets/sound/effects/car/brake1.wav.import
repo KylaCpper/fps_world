@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/brake1.wav-3f9a10cc451bc89cd0f64d20bd3cf24c.sample"
+
+[deps]
+
+source_file="res://assets/sound/effects/car/brake1.wav"
+dest_files=[ "res://.import/brake1.wav-3f9a10cc451bc89cd0f64d20bd3cf24c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

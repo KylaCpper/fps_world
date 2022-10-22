@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Window_Square_01.obj-8edcf1c54cbe8b9187e75e56885db1b2.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Window_Square_01.obj-8edcf1c54cbe8b9187e75e56885db1b2.mesh" ]
+
+source_file="res://assets/models/town/Models/Wood_Window_Square_01.obj"
+dest_files=[ "res://.import/Wood_Window_Square_01.obj-8edcf1c54cbe8b9187e75e56885db1b2.mesh", "res://.import/Wood_Window_Square_01.obj-8edcf1c54cbe8b9187e75e56885db1b2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

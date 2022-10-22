@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Castle_Wall_01.obj-c9bd5656b4f5e98f2887e901ea3f71c6.mesh"
+
+[deps]
+
+files=[ "res://.import/Castle_Wall_01.obj-c9bd5656b4f5e98f2887e901ea3f71c6.mesh" ]
+
+source_file="res://assets/models/town/Models/Castle_Wall_01.obj"
+dest_files=[ "res://.import/Castle_Wall_01.obj-c9bd5656b4f5e98f2887e901ea3f71c6.mesh", "res://.import/Castle_Wall_01.obj-c9bd5656b4f5e98f2887e901ea3f71c6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/kitchenStove.obj-dd809d6753ff3c49174b2eef4a2fd5b1.mesh"
+
+[deps]
+
+files=[ "res://.import/kitchenStove.obj-dd809d6753ff3c49174b2eef4a2fd5b1.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/kitchenStove.obj"
+dest_files=[ "res://.import/kitchenStove.obj-dd809d6753ff3c49174b2eef4a2fd5b1.mesh", "res://.import/kitchenStove.obj-dd809d6753ff3c49174b2eef4a2fd5b1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

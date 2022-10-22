@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bookcaseOpenLow.obj-a2b251eaf8426cecc5fadcb85fa8f8bd.mesh"
+
+[deps]
+
+files=[ "res://.import/bookcaseOpenLow.obj-a2b251eaf8426cecc5fadcb85fa8f8bd.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bookcaseOpenLow.obj"
+dest_files=[ "res://.import/bookcaseOpenLow.obj-a2b251eaf8426cecc5fadcb85fa8f8bd.mesh", "res://.import/bookcaseOpenLow.obj-a2b251eaf8426cecc5fadcb85fa8f8bd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

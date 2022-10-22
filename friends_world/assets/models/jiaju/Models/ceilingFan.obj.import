@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ceilingFan.obj-51fb1932381ec6bea0fd3e58cfb024c9.mesh"
+
+[deps]
+
+files=[ "res://.import/ceilingFan.obj-51fb1932381ec6bea0fd3e58cfb024c9.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/ceilingFan.obj"
+dest_files=[ "res://.import/ceilingFan.obj-51fb1932381ec6bea0fd3e58cfb024c9.mesh", "res://.import/ceilingFan.obj-51fb1932381ec6bea0fd3e58cfb024c9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

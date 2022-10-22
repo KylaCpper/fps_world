@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/youmen.wav-464b4e5b18b44f0f869861ea5b43dc27.sample"
+
+[deps]
+
+source_file="res://assets/sound/effects/car/youmen.wav"
+dest_files=[ "res://.import/youmen.wav-464b4e5b18b44f0f869861ea5b43dc27.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

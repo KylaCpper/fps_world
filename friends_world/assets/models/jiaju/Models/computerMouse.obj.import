@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/computerMouse.obj-34b93f9fd19e4fafb45c2f420a84d79a.mesh"
+
+[deps]
+
+files=[ "res://.import/computerMouse.obj-34b93f9fd19e4fafb45c2f420a84d79a.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/computerMouse.obj"
+dest_files=[ "res://.import/computerMouse.obj-34b93f9fd19e4fafb45c2f420a84d79a.mesh", "res://.import/computerMouse.obj-34b93f9fd19e4fafb45c2f420a84d79a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

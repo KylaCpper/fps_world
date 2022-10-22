@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pottedPlant.obj-13613956fe2c724effc6242ec64a1337.mesh"
+
+[deps]
+
+files=[ "res://.import/pottedPlant.obj-13613956fe2c724effc6242ec64a1337.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/pottedPlant.obj"
+dest_files=[ "res://.import/pottedPlant.obj-13613956fe2c724effc6242ec64a1337.mesh", "res://.import/pottedPlant.obj-13613956fe2c724effc6242ec64a1337.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

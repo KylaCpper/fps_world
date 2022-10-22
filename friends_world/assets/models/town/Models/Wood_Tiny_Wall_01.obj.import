@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Tiny_Wall_01.obj-995a3712f7461f6b0ecea6f0e6be4219.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Tiny_Wall_01.obj-995a3712f7461f6b0ecea6f0e6be4219.mesh" ]
+
+source_file="res://assets/models/town/Models/Wood_Tiny_Wall_01.obj"
+dest_files=[ "res://.import/Wood_Tiny_Wall_01.obj-995a3712f7461f6b0ecea6f0e6be4219.mesh", "res://.import/Wood_Tiny_Wall_01.obj-995a3712f7461f6b0ecea6f0e6be4219.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

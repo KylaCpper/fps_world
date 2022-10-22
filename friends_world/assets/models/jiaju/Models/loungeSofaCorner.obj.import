@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/loungeSofaCorner.obj-f04b7a4cb5d9116b70fa95b480d82df2.mesh"
+
+[deps]
+
+files=[ "res://.import/loungeSofaCorner.obj-f04b7a4cb5d9116b70fa95b480d82df2.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/loungeSofaCorner.obj"
+dest_files=[ "res://.import/loungeSofaCorner.obj-f04b7a4cb5d9116b70fa95b480d82df2.mesh", "res://.import/loungeSofaCorner.obj-f04b7a4cb5d9116b70fa95b480d82df2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

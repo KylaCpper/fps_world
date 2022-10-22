@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/shotgun.obj-19ebf3d217a11ae1e9426e6af19dfb95.mesh"
+
+[deps]
+
+files=[ "res://.import/shotgun.obj-19ebf3d217a11ae1e9426e6af19dfb95.mesh" ]
+
+source_file="res://assets/models/gun/Models/shotgun.obj"
+dest_files=[ "res://.import/shotgun.obj-19ebf3d217a11ae1e9426e6af19dfb95.mesh", "res://.import/shotgun.obj-19ebf3d217a11ae1e9426e6af19dfb95.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

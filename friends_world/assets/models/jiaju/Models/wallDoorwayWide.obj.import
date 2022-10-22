@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallDoorwayWide.obj-f6bcbcaf1f7a7d8a1f42535f9c385bf0.mesh"
+
+[deps]
+
+files=[ "res://.import/wallDoorwayWide.obj-f6bcbcaf1f7a7d8a1f42535f9c385bf0.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/wallDoorwayWide.obj"
+dest_files=[ "res://.import/wallDoorwayWide.obj-f6bcbcaf1f7a7d8a1f42535f9c385bf0.mesh", "res://.import/wallDoorwayWide.obj-f6bcbcaf1f7a7d8a1f42535f9c385bf0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

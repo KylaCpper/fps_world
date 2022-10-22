@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bathtub.obj-b721580ed12725b5171fb3a09523e86d.mesh"
+
+[deps]
+
+files=[ "res://.import/bathtub.obj-b721580ed12725b5171fb3a09523e86d.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bathtub.obj"
+dest_files=[ "res://.import/bathtub.obj-b721580ed12725b5171fb3a09523e86d.mesh", "res://.import/bathtub.obj-b721580ed12725b5171fb3a09523e86d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/lightRed.obj-d1f2015bbc218a75ecd9defc737ecbb9.mesh"
+
+[deps]
+
+files=[ "res://.import/lightRed.obj-d1f2015bbc218a75ecd9defc737ecbb9.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/lightRed.obj"
+dest_files=[ "res://.import/lightRed.obj-d1f2015bbc218a75ecd9defc737ecbb9.mesh", "res://.import/lightRed.obj-d1f2015bbc218a75ecd9defc737ecbb9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

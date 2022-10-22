@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStraightLong.obj-0a52a9c7a12eb5842e9d67613fefc43f.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStraightLong.obj-0a52a9c7a12eb5842e9d67613fefc43f.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadStraightLong.obj"
+dest_files=[ "res://.import/roadStraightLong.obj-0a52a9c7a12eb5842e9d67613fefc43f.mesh", "res://.import/roadStraightLong.obj-0a52a9c7a12eb5842e9d67613fefc43f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

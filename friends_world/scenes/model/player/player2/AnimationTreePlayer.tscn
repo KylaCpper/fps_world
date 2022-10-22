@@ -1,0 +1,141 @@
+[gd_scene format=2]
+
+[node name="AnimationTreePlayer" type="AnimationTreePlayer"]
+
+playback_process_mode = 1
+master_player = NodePath("../AnimationPlayer")
+base_path = NodePath("..")
+active = false
+data = {
+"active": false,
+"connections": [ "attack", "event", 0, "anim 7", "event", 1, "walk_speed", "stop", 0, "anim 3", "stop", 1, "an", "mix", 0, "ani", "mix", 1, "hurt", "out", 0, "mix", "walk", 0, "mix 2", "walk", 1, "walk", "jump", 0, "anim 6", "jump", 1, "jump", "walk_speed", 0, "anim 2", "mix 2", 0, "anim", "mix 2", 1, "stop", "attack", 0, "anim 4", "attack", 1, "event", "hurt", 0, "anim 5", "hurt", 1 ],
+"master": NodePath("../AnimationPlayer"),
+"nodes": [ {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.0,
+"filter": [  ],
+"id": "event",
+"mix": false,
+"position": Vector2( 706, 67 ),
+"type": "oneshot"
+}, {
+"blend": 1.0,
+"filter": [  ],
+"id": "stop",
+"position": Vector2( 516, 51 ),
+"type": "blend2"
+}, {
+"id": "mix",
+"mix": 1.0,
+"position": Vector2( 178, 67 ),
+"type": "mix"
+}, {
+"filter": [  ],
+"from": "item_walk",
+"id": "anim",
+"position": Vector2( 59, 310 ),
+"type": "animation"
+}, {
+"id": "out",
+"position": Vector2( 845, 220 ),
+"type": "output"
+}, {
+"blend": 0.0,
+"filter": [  ],
+"id": "walk",
+"position": Vector2( 246, 52 ),
+"type": "blend2"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "an",
+"position": Vector2( 60, 52 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "event",
+"id": "anim 7",
+"position": Vector2( 601, 212 ),
+"type": "animation"
+}, {
+"blend": 0.0,
+"filter": [  ],
+"id": "jump",
+"position": Vector2( 322, 46 ),
+"type": "blend2"
+}, {
+"id": "walk_speed",
+"position": Vector2( 411, 66 ),
+"scale": 1.0,
+"type": "timescale"
+}, {
+"id": "mix 2",
+"mix": 1.0,
+"position": Vector2( 179, 216 ),
+"type": "mix"
+}, {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.0,
+"filter": [  ],
+"id": "attack",
+"mix": false,
+"position": Vector2( 593, 45 ),
+"type": "oneshot"
+}, {
+"filter": [  ],
+"from": "attack",
+"id": "anim 4",
+"position": Vector2( 487, 215 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "hand_walk",
+"id": "ani",
+"position": Vector2( 58, 145 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "hurt",
+"id": "anim 5",
+"position": Vector2( 718, 209 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "jump",
+"id": "anim 6",
+"position": Vector2( 254, 225 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "walk",
+"id": "anim 2",
+"position": Vector2( 59, 240 ),
+"type": "animation"
+}, {
+"filter": [  ],
+"from": "stop",
+"id": "anim 3",
+"position": Vector2( 373, 232 ),
+"type": "animation"
+}, {
+"autorestart": false,
+"autorestart_delay": 0.0,
+"autorestart_random_delay": 0.0,
+"fade_in": 0.0,
+"fade_out": 0.7,
+"filter": [  ],
+"id": "hurt",
+"mix": false,
+"position": Vector2( 807, 47 ),
+"type": "oneshot"
+} ]
+}
+_sections_unfolded = [ "Playback" ]
+
+

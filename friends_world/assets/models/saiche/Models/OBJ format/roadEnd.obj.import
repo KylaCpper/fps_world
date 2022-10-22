@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadEnd.obj-f4a0080bf1329165cb2b0141b417968b.mesh"
+
+[deps]
+
+files=[ "res://.import/roadEnd.obj-f4a0080bf1329165cb2b0141b417968b.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/roadEnd.obj"
+dest_files=[ "res://.import/roadEnd.obj-f4a0080bf1329165cb2b0141b417968b.mesh", "res://.import/roadEnd.obj-f4a0080bf1329165cb2b0141b417968b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

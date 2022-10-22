@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/kitchenCoffeeMachine.obj-de02f569e655cb727985b23f9a3d3085.mesh"
+
+[deps]
+
+files=[ "res://.import/kitchenCoffeeMachine.obj-de02f569e655cb727985b23f9a3d3085.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/kitchenCoffeeMachine.obj"
+dest_files=[ "res://.import/kitchenCoffeeMachine.obj-de02f569e655cb727985b23f9a3d3085.mesh", "res://.import/kitchenCoffeeMachine.obj-de02f569e655cb727985b23f9a3d3085.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

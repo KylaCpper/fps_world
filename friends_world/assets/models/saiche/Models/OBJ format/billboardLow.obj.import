@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/billboardLow.obj-44d342057faf551ca0207ba274f9a9e1.mesh"
+
+[deps]
+
+files=[ "res://.import/billboardLow.obj-44d342057faf551ca0207ba274f9a9e1.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/billboardLow.obj"
+dest_files=[ "res://.import/billboardLow.obj-44d342057faf551ca0207ba274f9a9e1.mesh", "res://.import/billboardLow.obj-44d342057faf551ca0207ba274f9a9e1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

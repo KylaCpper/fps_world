@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pistol.obj-9f9e9eedbb057f96cc1598e49e4beddd.mesh"
+
+[deps]
+
+files=[ "res://.import/pistol.obj-9f9e9eedbb057f96cc1598e49e4beddd.mesh" ]
+
+source_file="res://assets/models/gun/Models/pistol.obj"
+dest_files=[ "res://.import/pistol.obj-9f9e9eedbb057f96cc1598e49e4beddd.mesh", "res://.import/pistol.obj-9f9e9eedbb057f96cc1598e49e4beddd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

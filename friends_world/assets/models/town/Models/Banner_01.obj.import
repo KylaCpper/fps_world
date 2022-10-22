@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Banner_01.obj-64b23bb30c8e6fa8b29c783075744638.mesh"
+
+[deps]
+
+files=[ "res://.import/Banner_01.obj-64b23bb30c8e6fa8b29c783075744638.mesh" ]
+
+source_file="res://assets/models/town/Models/Banner_01.obj"
+dest_files=[ "res://.import/Banner_01.obj-64b23bb30c8e6fa8b29c783075744638.mesh", "res://.import/Banner_01.obj-64b23bb30c8e6fa8b29c783075744638.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

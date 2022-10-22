@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/floorFull.obj-8e95aa600c97c18c217a6c5a0ab31331.mesh"
+
+[deps]
+
+files=[ "res://.import/floorFull.obj-8e95aa600c97c18c217a6c5a0ab31331.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/floorFull.obj"
+dest_files=[ "res://.import/floorFull.obj-8e95aa600c97c18c217a6c5a0ab31331.mesh", "res://.import/floorFull.obj-8e95aa600c97c18c217a6c5a0ab31331.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

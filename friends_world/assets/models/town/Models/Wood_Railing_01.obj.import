@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Railing_01.obj-fd9799deaa9908bb1b18c403474f4ded.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Railing_01.obj-fd9799deaa9908bb1b18c403474f4ded.mesh" ]
+
+source_file="res://assets/models/town/Models/Wood_Railing_01.obj"
+dest_files=[ "res://.import/Wood_Railing_01.obj-fd9799deaa9908bb1b18c403474f4ded.mesh", "res://.import/Wood_Railing_01.obj-fd9799deaa9908bb1b18c403474f4ded.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

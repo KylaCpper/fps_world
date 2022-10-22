@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chr_man.obj-8032d17a4a8548871e50745c2e7a433e.mesh"
+
+[deps]
+
+files=[ "res://.import/chr_man.obj-8032d17a4a8548871e50745c2e7a433e.mesh" ]
+
+source_file="res://assets/models/plane/chr_man.obj"
+dest_files=[ "res://.import/chr_man.obj-8032d17a4a8548871e50745c2e7a433e.mesh", "res://.import/chr_man.obj-8032d17a4a8548871e50745c2e7a433e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

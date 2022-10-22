@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bathroomSink.obj-9d9b1c9d7c577186ce58b4bb8e9dea65.mesh"
+
+[deps]
+
+files=[ "res://.import/bathroomSink.obj-9d9b1c9d7c577186ce58b4bb8e9dea65.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/bathroomSink.obj"
+dest_files=[ "res://.import/bathroomSink.obj-9d9b1c9d7c577186ce58b4bb8e9dea65.mesh", "res://.import/bathroomSink.obj-9d9b1c9d7c577186ce58b4bb8e9dea65.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

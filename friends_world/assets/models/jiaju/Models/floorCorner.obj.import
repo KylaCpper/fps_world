@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/floorCorner.obj-56faa33c5f4b49baecd93e3cf0a3d3e1.mesh"
+
+[deps]
+
+files=[ "res://.import/floorCorner.obj-56faa33c5f4b49baecd93e3cf0a3d3e1.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/floorCorner.obj"
+dest_files=[ "res://.import/floorCorner.obj-56faa33c5f4b49baecd93e3cf0a3d3e1.mesh", "res://.import/floorCorner.obj-56faa33c5f4b49baecd93e3cf0a3d3e1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

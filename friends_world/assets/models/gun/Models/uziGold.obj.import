@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/uziGold.obj-40bb3999c5047889abfe5c7f96a14301.mesh"
+
+[deps]
+
+files=[ "res://.import/uziGold.obj-40bb3999c5047889abfe5c7f96a14301.mesh" ]
+
+source_file="res://assets/models/gun/Models/uziGold.obj"
+dest_files=[ "res://.import/uziGold.obj-40bb3999c5047889abfe5c7f96a14301.mesh", "res://.import/uziGold.obj-40bb3999c5047889abfe5c7f96a14301.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

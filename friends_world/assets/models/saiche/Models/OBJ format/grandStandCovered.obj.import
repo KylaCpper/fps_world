@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/grandStandCovered.obj-2237332564fe290dab3ed7018b478d0f.mesh"
+
+[deps]
+
+files=[ "res://.import/grandStandCovered.obj-2237332564fe290dab3ed7018b478d0f.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/grandStandCovered.obj"
+dest_files=[ "res://.import/grandStandCovered.obj-2237332564fe290dab3ed7018b478d0f.mesh", "res://.import/grandStandCovered.obj-2237332564fe290dab3ed7018b478d0f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

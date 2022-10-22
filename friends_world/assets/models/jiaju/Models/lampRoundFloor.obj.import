@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/lampRoundFloor.obj-76d9850c1c0c25816946b56d79b5058d.mesh"
+
+[deps]
+
+files=[ "res://.import/lampRoundFloor.obj-76d9850c1c0c25816946b56d79b5058d.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/lampRoundFloor.obj"
+dest_files=[ "res://.import/lampRoundFloor.obj-76d9850c1c0c25816946b56d79b5058d.mesh", "res://.import/lampRoundFloor.obj-76d9850c1c0c25816946b56d79b5058d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

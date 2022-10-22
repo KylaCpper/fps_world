@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tent.obj-58c9c833fec348d368e7262c76a92cf3.mesh"
+
+[deps]
+
+files=[ "res://.import/tent.obj-58c9c833fec348d368e7262c76a92cf3.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/tent.obj"
+dest_files=[ "res://.import/tent.obj-58c9c833fec348d368e7262c76a92cf3.mesh", "res://.import/tent.obj-58c9c833fec348d368e7262c76a92cf3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

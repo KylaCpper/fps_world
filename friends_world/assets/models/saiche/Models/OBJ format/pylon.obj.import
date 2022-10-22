@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pylon.obj-1d146032bca90431ab9b12b57b866d84.mesh"
+
+[deps]
+
+files=[ "res://.import/pylon.obj-1d146032bca90431ab9b12b57b866d84.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/pylon.obj"
+dest_files=[ "res://.import/pylon.obj-1d146032bca90431ab9b12b57b866d84.mesh", "res://.import/pylon.obj-1d146032bca90431ab9b12b57b866d84.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

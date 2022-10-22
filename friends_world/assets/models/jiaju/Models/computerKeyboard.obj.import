@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/computerKeyboard.obj-23d481c781a7d382567e528d3ccd5719.mesh"
+
+[deps]
+
+files=[ "res://.import/computerKeyboard.obj-23d481c781a7d382567e528d3ccd5719.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/computerKeyboard.obj"
+dest_files=[ "res://.import/computerKeyboard.obj-23d481c781a7d382567e528d3ccd5719.mesh", "res://.import/computerKeyboard.obj-23d481c781a7d382567e528d3ccd5719.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

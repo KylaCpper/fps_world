@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cardboardBoxOpen.obj-166ded5c9e0e0f7945d73d10a29a8a2f.mesh"
+
+[deps]
+
+files=[ "res://.import/cardboardBoxOpen.obj-166ded5c9e0e0f7945d73d10a29a8a2f.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/cardboardBoxOpen.obj"
+dest_files=[ "res://.import/cardboardBoxOpen.obj-166ded5c9e0e0f7945d73d10a29a8a2f.mesh", "res://.import/cardboardBoxOpen.obj-166ded5c9e0e0f7945d73d10a29a8a2f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rail.obj-a35e053b0e62bcfa15e559f4aac1e2bb.mesh"
+
+[deps]
+
+files=[ "res://.import/rail.obj-a35e053b0e62bcfa15e559f4aac1e2bb.mesh" ]
+
+source_file="res://assets/models/saiche/Models/OBJ format/rail.obj"
+dest_files=[ "res://.import/rail.obj-a35e053b0e62bcfa15e559f4aac1e2bb.mesh", "res://.import/rail.obj-a35e053b0e62bcfa15e559f4aac1e2bb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

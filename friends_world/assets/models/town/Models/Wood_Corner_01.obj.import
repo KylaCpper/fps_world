@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Corner_01.obj-03985ae94eb39d20fa3c046d81be6960.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Corner_01.obj-03985ae94eb39d20fa3c046d81be6960.mesh" ]
+
+source_file="res://assets/models/town/Models/Wood_Corner_01.obj"
+dest_files=[ "res://.import/Wood_Corner_01.obj-03985ae94eb39d20fa3c046d81be6960.mesh", "res://.import/Wood_Corner_01.obj-03985ae94eb39d20fa3c046d81be6960.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

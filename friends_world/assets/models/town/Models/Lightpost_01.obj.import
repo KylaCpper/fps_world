@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Lightpost_01.obj-cadc81d8ff7e93dfeaace82badb31640.mesh"
+
+[deps]
+
+files=[ "res://.import/Lightpost_01.obj-cadc81d8ff7e93dfeaace82badb31640.mesh" ]
+
+source_file="res://assets/models/town/Models/Lightpost_01.obj"
+dest_files=[ "res://.import/Lightpost_01.obj-cadc81d8ff7e93dfeaace82badb31640.mesh", "res://.import/Lightpost_01.obj-cadc81d8ff7e93dfeaace82badb31640.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

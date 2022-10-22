@@ -1,0 +1,30 @@
+[gd_scene format=2]
+
+[node name="Camera" type="Camera"]
+
+editor/display_folded = true
+transform = Transform( -1, 0, 8.74227e-08, 0, 1, 0, -8.74228e-08, 0, -0.999999, 0.0139256, 1.45961, 0.109695 )
+keep_aspect = 1
+cull_mask = 1048575
+environment = null
+h_offset = 0.0
+v_offset = 0.0
+doppler_tracking = 0
+projection = 0
+current = true
+fov = 62.9705
+size = 1.0
+near = 0.1
+far = 100.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="ray" type="RayCast" parent="." index="0"]
+
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74229e-08, 0, -1, 0.0139256, -0.0433772, -0.160492 )
+enabled = false
+exclude_parent = true
+cast_to = Vector3( 0, 0, 1 )
+collision_mask = 1
+_sections_unfolded = [ "Transform" ]
+
+

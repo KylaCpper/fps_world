@@ -1,0 +1,7 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+
+flags = 23
+load_path = "res://.import/trunk_side.png-5e1d4918a47e855f0f43b3ef76801afc.s3tc.stex"
+

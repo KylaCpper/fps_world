@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tree_01.obj-a863d4d7d0a5deb82653f3a3e5bd6cfe.mesh"
+
+[deps]
+
+files=[ "res://.import/Tree_01.obj-a863d4d7d0a5deb82653f3a3e5bd6cfe.mesh" ]
+
+source_file="res://assets/models/town/Models/Tree_01.obj"
+dest_files=[ "res://.import/Tree_01.obj-a863d4d7d0a5deb82653f3a3e5bd6cfe.mesh", "res://.import/Tree_01.obj-a863d4d7d0a5deb82653f3a3e5bd6cfe.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

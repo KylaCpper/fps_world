@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tableRound.obj-c6243cff54996f189d2a00927f929925.mesh"
+
+[deps]
+
+files=[ "res://.import/tableRound.obj-c6243cff54996f189d2a00927f929925.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/tableRound.obj"
+dest_files=[ "res://.import/tableRound.obj-c6243cff54996f189d2a00927f929925.mesh", "res://.import/tableRound.obj-c6243cff54996f189d2a00927f929925.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

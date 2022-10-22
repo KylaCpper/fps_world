@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tableCoffeeGlass.obj-84bfb71b94ae343c890b2f3eb785339b.mesh"
+
+[deps]
+
+files=[ "res://.import/tableCoffeeGlass.obj-84bfb71b94ae343c890b2f3eb785339b.mesh" ]
+
+source_file="res://assets/models/jiaju/Models/tableCoffeeGlass.obj"
+dest_files=[ "res://.import/tableCoffeeGlass.obj-84bfb71b94ae343c890b2f3eb785339b.mesh", "res://.import/tableCoffeeGlass.obj-84bfb71b94ae343c890b2f3eb785339b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

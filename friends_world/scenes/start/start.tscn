@@ -1,0 +1,140 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/img/ui/bg.png" type="Texture" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://assets/img/other/head1.png" type="Texture" id=3]
+[ext_resource path="res://assets/img/other/head2.png" type="Texture" id=4]
+[ext_resource path="res://assets/img/other/head3.png" type="Texture" id=5]
+[ext_resource path="res://assets/sound/laugh.wav" type="AudioStream" id=6]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node2D
+
+# class member variables go here, for example:
+# var a = 2
+# var b = \"textvar\"
+
+func _ready():
+	
+	# Called when the node is added to the scene for the first time.
+	# Initialization here
+	AudioServer.set_bus_volume_db(AudioServer.get_bus_index(\"effects\"),-60+Overall.set_data.sound*0.6)
+	AudioServer.set_bus_volume_db(AudioServer.get_bus_index(\"music\"),-60+Overall.set_data.music*0.6)
+	get_node(\"AnimationPlayer\").connect(\"animation_finished\",self,\"_finish\")
+	set_process_input(true)
+	_finish(0)
+	pass
+func _input(event):
+	if event.is_action_pressed(\"enter\")||event.is_action_pressed(\"esc\")||event.is_action_pressed(\"jump\"):
+		_finish(0)
+func _finish(ani):
+	TranslationServer.set_locale(Config.languages[Overall.set_data.language])
+	Global.GoTo_Scene(\"res://scenes/start/main.tscn\")
+	pass
+#func _process(delta):
+#	# Called every frame. Delta is time since last frame.
+#	# Update game logic here.
+#	pass
+"
+
+[sub_resource type="ShaderMaterial" id=2]
+
+render_priority = 0
+
+[sub_resource type="Animation" id=3]
+
+length = 4.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("bg2:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.8, 4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("audio:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.9 ),
+"transitions": PoolRealArray( 1 ),
+"update": 2,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ]
+}
+
+[node name="Node2D" type="Node2D" index="0"]
+
+script = SubResource( 1 )
+
+[node name="bg" type="Sprite" parent="." index="0"]
+
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 520, 300 )
+scale = Vector2( 17.0625, 11.125 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Offset", "Visibility" ]
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+
+material = SubResource( 2 )
+position = Vector2( 520.758, 300 )
+scale = Vector2( 1.5, 1.5 )
+z_index = 1
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Material", "Offset", "Transform", "Visibility", "Z Index" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/start = SubResource( 3 )
+blend_times = [  ]
+
+[node name="bg2" type="Sprite" parent="." index="3"]
+
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 520, 300 )
+scale = Vector2( 17.0625, 11.125 )
+z_index = 1
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility", "Z Index" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="audio" type="AudioStreamPlayer" parent="." index="4"]
+
+stream = ExtResource( 6 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "effects"
+
+
