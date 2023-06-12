@@ -1,4 +1,4 @@
-# friends-world
+# fps-world
 A sandbox multiplayer online game project for learning godot  
 use version godot 3.0.6  
 [中文点这里](/readme_zh.md)  

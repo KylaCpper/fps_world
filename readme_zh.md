@@ -1,4 +1,4 @@
-# friends-world
+# fps-world
 一个沙盒联机3d 游戏 是练习godot的作品
 使用版本 godot 3.0.6  
 [中文点这里](/readme_zh.md)  
